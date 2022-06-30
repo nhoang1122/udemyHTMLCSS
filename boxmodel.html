@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model / Margin & Styling</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            background: #f4f4f4;
+            border: 1px solid black;
+            width: 500px;
+
+            /* padding on ALL sides */
+            padding: 20px;
+
+            /* padding per side */
+            padding-top: 10px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+
+            /* Padding Shortcut : Top, Right, Bottom, Left */
+            padding: 10px 20px 10px 20px;
+
+            /* Padding ShortCut : TOP/BOTTOM, RIGHT/LEFT */
+            padding: 10px 20px;
+
+            /* Margin on ALL sides */
+            margin: 20px;
+
+            /* margin per side */
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+
+            /* margin Shortcut : Top, Right, Bottom, Left */
+            margin: 10px 20px 10px 20px;
+
+            /* margin ShortCut : TOP/BOTTOM, RIGHT/LEFT */
+            margin: 10px 20px;
+        }
+        .box h3 {
+            padding-bottom: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h3>Box One</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam fuga obcaecati est repellat culpa molestias facilis, nesciunt, eius error suscipit non. Voluptas repellat iure asperiores odio, nostrum quo tempore quasi?</p>
+    </div>
+    <div class="box">
+        <h3>Box Two</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam fuga obcaecati est repellat culpa molestias facilis, nesciunt, eius error suscipit non. Voluptas repellat iure asperiores odio, nostrum quo tempore quasi?</p>
+    </div>
+</body>
+</html>
